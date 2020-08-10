@@ -71,3 +71,13 @@ navLinks.forEach(link => link.addEventListener("click", (event) => {
     event.target.style.textDecoration = "underline";
     
 }));
+
+// 11 online / 12 offline
+// addEventListener version
+window.addEventListener('online', (_event) => {
+    alert("You are now connected to the network.");
+});
+// addEventListener version
+window.addEventListener('offline', (_event) => {
+    alert("The network connection has been lost.");
+});
