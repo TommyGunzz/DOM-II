@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 // Your code goes here
 // 1  On mouseover
 const myHover = document.querySelector(".logo-heading");
